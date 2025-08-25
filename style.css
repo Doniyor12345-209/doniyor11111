@@ -1,0 +1,28 @@
+.main{
+    max-width: 1440px;
+    border: 2px solid red;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    text-align: center;
+    color: aliceblue;
+    flex-wrap: wrap;
+}
+@media (max-width: 1280px){
+    body{
+        background-color: yellow;
+    }
+    
+    .box{
+        width: 400px;
+        background-color: blue;
+    }
+}
